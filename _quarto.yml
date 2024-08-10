@@ -10,6 +10,8 @@ website:
         href: https://github.com/theAfricanQuant
       - icon: twitter
         href: https://twitter.com/theAfricanQuant
+      - href: Alphavantage_Dashboard.qmd
+        text: Alphavantage Dashboard
 format:
   html:
     theme: [cosmo, custom.scss]
