@@ -1,0 +1,390 @@
+---
+title: "Donchian Channel Breakout"
+format:
+    dashboard: 
+        theme: [yeti, custom.scss]
+---
+
+```{python}
+from dashboard_utils import *
+import datetime 
+
+# Get today's date and time
+now = get_current_time()
+
+ticker = "NVDA"
+```
+# `{python} ticker`
+
+## Row {height="25%"}
+
+### Column
+```{python}
+#| content: valuebox
+#| title: Day of the Week
+dict(
+    color = "success",
+    value = now.strftime("%A")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Month
+dict(
+    color="info",
+    value=now.strftime("%B")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Year
+dict(
+    color="lightseagreen",
+    value=now.year
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Week Number
+dict(
+    color="info",
+    value=now.strftime("%W")
+)
+```
+### Column {width="40%"}
+
+```{python}
+#| content: valuebox
+#| title: non-farm payrolls
+dict(
+    color="warning",
+    value=check_nfp_release()
+)
+```
+
+## Row 
+
+
+```{python}
+#| title: Strategy History
+stock_data = prepare_data_and_indicators(ticker=ticker)
+plot_candlestick_with_indicators(data=stock_data, title=f'Stock Chart of {ticker}', width=1400, height=800)
+```
+
+```{python}
+ticker = "AMZN"
+```
+# `{python} ticker`
+
+## Row {height="25%"}
+
+### Column
+```{python}
+#| content: valuebox
+#| title: Day of the Week
+dict(
+    color = "success",
+    value = now.strftime("%A")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Month
+dict(
+    color="info",
+    value=now.strftime("%B")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Year
+dict(
+    color="lightseagreen",
+    value=now.year
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Week Number
+dict(
+    color="info",
+    value=now.strftime("%W")
+)
+```
+### Column {width="40%"}
+
+```{python}
+#| content: valuebox
+#| title: non-farm payrolls
+dict(
+    color="warning",
+    value=check_nfp_release()
+)
+```
+
+## Row 
+
+
+```{python}
+#| title: Strategy History
+stock_data = prepare_data_and_indicators(ticker=ticker)
+plot_candlestick_with_indicators(data=stock_data, title=f'Stock Chart of {ticker}', width=1400, height=800)
+```
+
+```{python}
+ticker = "IBM"
+```
+# `{python} ticker`
+
+## Row {height="25%"}
+
+### Column
+```{python}
+#| content: valuebox
+#| title: Day of the Week
+dict(
+    color = "success",
+    value = now.strftime("%A")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Month
+dict(
+    color="info",
+    value=now.strftime("%B")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Year
+dict(
+    color="lightseagreen",
+    value=now.year
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Week Number
+dict(
+    color="info",
+    value=now.strftime("%W")
+)
+```
+### Column {width="40%"}
+
+```{python}
+#| content: valuebox
+#| title: non-farm payrolls
+dict(
+    color="warning",
+    value=check_nfp_release()
+)
+```
+
+## Row 
+
+
+```{python}
+#| title: Strategy History
+stock_data = prepare_data_and_indicators(ticker=ticker)
+plot_candlestick_with_indicators(data=stock_data, title=f'Stock Chart of {ticker}', width=1400, height=800)
+```
+
+```{python}
+ticker =  "AAPL"
+```
+# `{python} ticker`
+
+## Row {height="25%"}
+
+### Column
+```{python}
+#| content: valuebox
+#| title: Day of the Week
+dict(
+    color = "success",
+    value = now.strftime("%A")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Month
+dict(
+    color="info",
+    value=now.strftime("%B")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Year
+dict(
+    color="lightseagreen",
+    value=now.year
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Week Number
+dict(
+    color="info",
+    value=now.strftime("%W")
+)
+```
+### Column {width="40%"}
+
+```{python}
+#| content: valuebox
+#| title: non-farm payrolls
+dict(
+    color="warning",
+    value=check_nfp_release()
+)
+```
+
+## Row 
+
+
+```{python}
+#| title: Strategy History
+stock_data = prepare_data_and_indicators(ticker=ticker)
+plot_candlestick_with_indicators(data=stock_data, title=f'Stock Chart of {ticker}', width=1400, height=800)
+```
+
+```{python}
+ticker = "MSF"
+```
+# `{python} ticker`
+
+## Row {height="25%"}
+
+### Column
+```{python}
+#| content: valuebox
+#| title: Day of the Week
+dict(
+    color = "success",
+    value = now.strftime("%A")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Month
+dict(
+    color="info",
+    value=now.strftime("%B")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Year
+dict(
+    color="lightseagreen",
+    value=now.year
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Week Number
+dict(
+    color="info",
+    value=now.strftime("%W")
+)
+```
+### Column {width="40%"}
+
+```{python}
+#| content: valuebox
+#| title: non-farm payrolls
+dict(
+    color="warning",
+    value=check_nfp_release()
+)
+```
+
+## Row 
+
+
+```{python}
+#| title: Strategy History
+stock_data = prepare_data_and_indicators(ticker=ticker)
+plot_candlestick_with_indicators(data=stock_data, title=f'Stock Chart of {ticker}', width=1400, height=800)
+```
+
+```{python}
+ticker = "TSLA"
+```
+# `{python} ticker`
+
+## Row {height="25%"}
+
+### Column
+```{python}
+#| content: valuebox
+#| title: Day of the Week
+dict(
+    color = "success",
+    value = now.strftime("%A")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Month
+dict(
+    color="info",
+    value=now.strftime("%B")
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Year
+dict(
+    color="lightseagreen",
+    value=now.year
+)
+```
+### Column
+```{python}
+#| content: valuebox
+#| title: Week Number
+dict(
+    color="info",
+    value=now.strftime("%W")
+)
+```
+### Column {width="40%"}
+
+```{python}
+#| content: valuebox
+#| title: non-farm payrolls
+dict(
+    color="warning",
+    value=check_nfp_release()
+)
+```
+
+## Row 
+
+
+```{python}
+#| title: Strategy History
+stock_data = prepare_data_and_indicators(ticker=ticker)
+plot_candlestick_with_indicators(data=stock_data, title=f'Stock Chart of {ticker}', width=1400, height=800)
+```

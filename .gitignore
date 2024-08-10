@@ -140,6 +140,10 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# from Quarto
+/.quarto/
+
+/_site/
 # mypy
 .mypy_cache/
 .dmypy.json
