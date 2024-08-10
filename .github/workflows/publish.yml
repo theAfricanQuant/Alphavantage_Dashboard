@@ -33,4 +33,4 @@ jobs:
             target: gh-pages
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            GITHUB_TOKEN: ${{ secrets.AV_API_KEY }}
+            AV_API_KEY: ${{ secrets.AV_API_KEY }}
