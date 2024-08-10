@@ -1,0 +1,38 @@
+---
+title: "About"
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/theAfricanQuant
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/theafricanquant/
+    - icon: github
+      text: Github
+      href: https://github.com/theAfricanQuant
+
+---
+
+Welcome to the **Alphavantage Dashboard**, your go-to tool for real-time insights and data-driven analysis designed specifically for traders and financial analysts. This dashboard is a comprehensive solution for accessing and visualizing market data, making it easier to make informed trading decisions.
+
+### What This Dashboard Offers
+
+- **Project Overview**: A detailed look at the Alphavantage Dashboard, highlighting its features, capabilities, and the underlying technology that powers it.
+- **Development Journey**: Insights into how the dashboard was created, including step-by-step guides from initial setup to final deployment, addressing challenges and solutions along the way.
+- **Technical Tutorials**: Comprehensive tutorials on how the dashboard integrates with the Alphavantage API, along with tips on using tools like Quarto for rendering and publishing content.
+- **Updates and Enhancements**: Regular updates on new features, enhancements, and improvements to the dashboard, along with future development plans.
+- **Deployment Tips**: Best practices for deploying data-driven dashboards, including workflow automation using GitHub Actions and other CI/CD tools.
+
+### About the Creator
+
+I'm [Ricky Macharm](www.SisengAI.com), a developer with a deep interest in creating data-driven tools that empower traders and analysts. The Alphavantage Dashboard is a key project that merges my expertise in algorithmic trading, data science, and software development.
+
+This dashboard is a culmination of the insights, tools, and knowledge I’ve gained throughout its development. Whether you’re a developer looking to create something similar or a trader aiming to leverage data more effectively, this dashboard is built to meet your needs.
+
+### Get Involved
+
+If you’re interested in the Alphavantage Dashboard or have suggestions for new features, feel free to reach out! You can connect with me for more updates and to join the conversation.
+
+Thank you for using the Alphavantage Dashboard—I hope it helps you in making better, data-driven trading decisions!
