@@ -8,8 +8,10 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/theAfricanQuant
+        target: _blank
       - icon: twitter
         href: https://twitter.com/theAfricanQuant
+        target: _blank
       - href: Alphavantage_Dashboard.qmd
         text: Alphavantage Dashboard
 format:

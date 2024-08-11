@@ -6,33 +6,48 @@ about:
     - icon: twitter
       text: Twitter
       href: https://twitter.com/theAfricanQuant
+      target: _blank
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/theafricanquant/
+      target: _blank
     - icon: github
       text: Github
       href: https://github.com/theAfricanQuant
+      target: _blank
+format: 
+  html: 
+    css: custom.scss
 
 ---
 
-Welcome to the **Alphavantage Dashboard**, your go-to tool for real-time insights and data-driven analysis designed specifically for traders and financial analysts. This dashboard is a comprehensive solution for accessing and visualizing market data, making it easier to make informed trading decisions.
 
-### What This Dashboard Offers
+### About the Alphavantage Dashboard
 
-- **Project Overview**: A detailed look at the Alphavantage Dashboard, highlighting its features, capabilities, and the underlying technology that powers it.
-- **Development Journey**: Insights into how the dashboard was created, including step-by-step guides from initial setup to final deployment, addressing challenges and solutions along the way.
-- **Technical Tutorials**: Comprehensive tutorials on how the dashboard integrates with the Alphavantage API, along with tips on using tools like Quarto for rendering and publishing content.
-- **Updates and Enhancements**: Regular updates on new features, enhancements, and improvements to the dashboard, along with future development plans.
-- **Deployment Tips**: Best practices for deploying data-driven dashboards, including workflow automation using GitHub Actions and other CI/CD tools.
+
+The Alphavantage Dashboard is a project designed to demonstrate how to publish dynamic content on GitHub Pages using cron jobs. This dashboard automatically updates data fetched from the Alphavantage API, showcasing real-time information without requiring manual intervention.
+
+Key features of this project include:
+
+- **Dynamic Content Updates**: The dashboard uses cron jobs to regularly fetch and display up-to-date data from the Alphavantage API, ensuring that the information is always current.
+  
+- **GitHub Actions Integration**: The project leverages GitHub Actions for automated deployment, including the use of environment variables both locally and within the GitHub Actions workflow to securely manage API keys and other sensitive information.
+
+This project serves as a practical example for anyone interested in automating the deployment of dynamic content on GitHub Pages, utilizing the power of APIs and continuous integration.
+
 
 ### About the Creator
 
-I'm [Ricky Macharm](www.SisengAI.com), a developer with a deep interest in creating data-driven tools that empower traders and analysts. The Alphavantage Dashboard is a key project that merges my expertise in algorithmic trading, data science, and software development.
+
+I'm Ricky Macharm and I have website at <a href="https://www.sisengai.com/" target="_blank">www.SisengAI.com</a>. I am a developer with a deep interest in creating data-driven tools that empower traders and analysts. The Alphavantage Dashboard is a key project that merges my expertise in algorithmic trading, data science, and software development.
 
 This dashboard is a culmination of the insights, tools, and knowledge I’ve gained throughout its development. Whether you’re a developer looking to create something similar or a trader aiming to leverage data more effectively, this dashboard is built to meet your needs.
 
+
 ### Get Involved
+
 
 If you’re interested in the Alphavantage Dashboard or have suggestions for new features, feel free to reach out! You can connect with me for more updates and to join the conversation.
 
 Thank you for using the Alphavantage Dashboard—I hope it helps you in making better, data-driven trading decisions!
+ 
