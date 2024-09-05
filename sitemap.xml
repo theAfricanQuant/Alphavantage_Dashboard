@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://theAfricanQuant.github.io/Alphavantage_Dashboard/Alphavantage_Dashboard.html</loc>
-    <lastmod>2024-09-04T04:04:28.285Z</lastmod>
-  </url>
-  <url>
-    <loc>https://theAfricanQuant.github.io/Alphavantage_Dashboard/code_tests.html</loc>
-    <lastmod>2024-09-04T04:04:28.353Z</lastmod>
-  </url>
-  <url>
     <loc>https://theAfricanQuant.github.io/Alphavantage_Dashboard/about.html</loc>
-    <lastmod>2024-09-04T04:04:28.305Z</lastmod>
+    <lastmod>2024-09-05T04:04:12.536Z</lastmod>
   </url>
   <url>
     <loc>https://theAfricanQuant.github.io/Alphavantage_Dashboard/index.html</loc>
-    <lastmod>2024-09-04T04:04:28.353Z</lastmod>
+    <lastmod>2024-09-05T04:04:12.584Z</lastmod>
+  </url>
+  <url>
+    <loc>https://theAfricanQuant.github.io/Alphavantage_Dashboard/code_tests.html</loc>
+    <lastmod>2024-09-05T04:04:12.580Z</lastmod>
+  </url>
+  <url>
+    <loc>https://theAfricanQuant.github.io/Alphavantage_Dashboard/Alphavantage_Dashboard.html</loc>
+    <lastmod>2024-09-05T04:04:12.516Z</lastmod>
   </url>
 </urlset>
